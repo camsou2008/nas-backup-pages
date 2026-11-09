@@ -1,0 +1,61 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>隐私政策 · nas01-backup</title>
+<style>
+ body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue",Arial,sans-serif;
+      max-width:680px;margin:0 auto;padding:48px 20px;line-height:1.8;color:#1f2328}
+ h1{font-size:22px} h2{font-size:16px;margin-top:28px}
+ p,li{font-size:15px} a{color:#0969da}
+ ul{padding-left:22px}
+ .meta{color:#656d76;font-size:13px;margin-bottom:24px}
+</style>
+</head>
+<body>
+  <h1>隐私政策 / Privacy Policy</h1>
+  <div class="meta">适用范围：nas01-backup（个人自用备份工具）· 生效日期：2026-11-09</div>
+
+  <h2>一、我们是谁</h2>
+  <p>nas01-backup 是开发者个人自用的备份工具，不对外运营、不提供任何公共服务。
+     联系邮箱：<code>camsou2008+nasbackup@gmail.com</code>。</p>
+
+  <h2>二、这个应用会访问什么数据</h2>
+  <p>本应用通过 Google Drive API 访问<strong>授权者本人</strong> Google 账号中的文件，使用的授权范围是：</p>
+  <ul>
+    <li><code>https://www.googleapis.com/auth/drive</code>：查看、编辑、下载、删除授权者本人 Google Drive 中的文件；</li>
+    <li><code>https://www.googleapis.com/auth/drive.metadata.readonly</code>：只读访问文件元数据（文件名、大小、修改时间），用于判断哪些文件需要备份；</li>
+    <li><code>https://www.googleapis.com/auth/docs</code>、<code>openid</code>、<code>email</code>：OAuth 流程与账号识别所需。</li>
+  </ul>
+  <p>本应用只在授权者自己的家庭网络设备上运行，读写目标仅为授权者本人的云盘目录。</p>
+
+  <h2>三、我们不会做什么</h2>
+  <ul>
+    <li>不会把您的任何数据出售、出租或与他人共享；</li>
+    <li>不会把数据传送到除授权者本人 Google 账号与本人设备以外的任何第三方服务器；</li>
+    <li>不设置 Cookie，不嵌入任何分析、广告或追踪脚本；</li>
+    <li>没有网站服务端，因此本页面本身不收集任何访客数据（GitHub Pages 的访问日志由 GitHub 依其政策处理）。</li>
+  </ul>
+
+  <h2>四、数据存放位置与保留</h2>
+  <p>备份数据存放于授权者本人的 Google 账号云盘中。数据的保留与删除由授权者自行决定；
+     授权者可以在 Google 账号的「第三方使用您的 Google 服务权限」中随时撤销本应用的授权，
+     撤销后本应用立即无法再访问其云盘。</p>
+
+  <h2>五、儿童隐私</h2>
+  <p>本应用不面向 13 岁以下儿童，也不会主动收集任何儿童信息。</p>
+
+  <h2>六、政策变更</h2>
+  <p>若授权范围或用途发生变化，开发者会更新本页面内容并更新日期。</p>
+
+  <h2>English summary</h2>
+  <p>nas01-backup is a private, single-user backup utility written and used by its owner. It accesses
+     only the consenting user's own Google Drive files using the OAuth scopes listed above. It does not
+     collect, share, sell, or transmit any personal data to third parties, contains no analytics,
+     cookies, or tracking, and operates entirely on the owner's own home device. Users may revoke access
+     at any time from their Google Account security settings.</p>
+
+  <p><a href="./index.html">← 返回主页 / Back to home</a></p>
+</body>
+</html>

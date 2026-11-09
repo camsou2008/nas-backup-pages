@@ -1,0 +1,39 @@
+<!doctype html>
+<html lang="zh-CN">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>nas01-backup · 个人备份工具</title>
+<style>
+ body{font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Helvetica Neue",Arial,sans-serif;
+      max-width:640px;margin:0 auto;padding:48px 20px;line-height:1.75;color:#1f2328}
+ h1{font-size:22px;margin:0 0 4px}
+ .sub{color:#656d76;font-size:14px;margin-bottom:28px}
+ p{font-size:15px}
+ a{color:#0969da}
+ .box{border:1px solid #d0d7de;border-radius:8px;padding:14px 16px;background:#f6f8fa;font-size:14px;margin-top:28px}
+ code{font-family:ui-monospace,SFMono-Regular,Menlo,monospace;font-size:13px;background:#eff1f3;padding:1px 5px;border-radius:4px}
+</style>
+</head>
+<body>
+  <h1>nas01-backup</h1>
+  <div class="sub">Personal backup utility · 个人自用工具说明页</div>
+
+  <p>本页面是 <strong>nas01-backup</strong> 这个个人自用工具的主页。它唯一的功能是：
+     把作者自己家中 NAS 上的照片与视频，备份到<strong>作者本人</strong>的 Google 账号云盘里。</p>
+
+  <p>这个工具：
+     <br>· 不对外提供服务，任何人都无法使用它访问别的账号；
+     <br>· 没有服务器、没有数据库、没有统计代码、不设 Cookie；
+     <br>· 只使用 Google Drive API 读写授权者本人的云盘文件。</p>
+
+  <p>它按 OAuth 2.0 规范申请 Google Drive 授权，因此需要一个公开的主页与隐私政策链接，
+     这个页面就是为此而存在。</p>
+
+  <div class="box">
+    隐私政策：<a href="./privacy.html">privacy.html</a><br>
+    技术栈：本机运行的命令行程序（rclone），无任何 Web 服务端。<br>
+    联系邮箱：<code>camsou2008+nasbackup@gmail.com</code>
+  </div>
+</body>
+</html>
